@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImportContactActivity">
+
+    <EditText
+        android:id="@+id/filePathTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
+    <EditText
+        android:id="@+id/urlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://hsd.eyescredit.com/tdata/1.txt"
+         />
+
+    <TextView
+        android:id="@+id/progressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
+    <TextView
+        android:id="@+id/progress1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
+
+    <Button
+        android:id="@+id/startImportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始导入"
+         />
+
+
+</LinearLayout>
